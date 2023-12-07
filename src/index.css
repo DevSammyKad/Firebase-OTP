@@ -11,5 +11,8 @@
 }
 
 .otp-container input {
-  @apply flex-1 py-5 outline-none !mr-1 rounded-lg text-black;
+  @apply flex-1 py-5 outline-none !mr-1 rounded-lg border text-black;
+}
+.otp-container input:focus {
+  @apply border-[#f07777];
 }
